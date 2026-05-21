@@ -24,7 +24,7 @@ export default function Gallery() {
       id: "teamwork-scene",
       title: "Collaborative Brainstorms",
       description: "Setting weekly productivity targets and hacking layout wires in teams.",
-      image: "/src/assets/images/collaborative_brainstorms_1779364578125.png",
+      image: "/src/assets/images/collaborative_brainstorms_1779364578125_1779365126448.png",
       span: "md:col-span-1 md:row-span-1",
       icon: Users,
       badge: "Productive Breakouts"
@@ -33,7 +33,7 @@ export default function Gallery() {
       id: "mentorship-scene",
       title: "One-on-One Mentoring",
       description: "High-quality engineering guides answering career pathway questions from actual tech experience.",
-      image: "/src/assets/images/one_on_one_mentoring_1779364601831.png",
+      image: "/src/assets/images/one_on_one_mentoring_1779364601831_1779365148032.png",
       span: "md:col-span-2 md:row-span-1",
       icon: Sparkles,
       badge: "Career Support"

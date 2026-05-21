@@ -3,7 +3,7 @@ import { MessageCircle, ArrowRight, ShieldCheck, Sparkles, CheckCircle } from "l
 
 export default function Hero() {
   // Use exact generated image path
-  const heroImageSrc = "/src/assets/images/hero_teen_students_1779362757035.png";
+  const heroImageSrc = "/src/assets/images/classroom_attached_1779369052912.png";
 
   return (
     <section
@@ -151,13 +151,6 @@ export default function Hero() {
                   <div className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
                   <span className="text-xs font-bold tracking-tight">Accra Innovation Center, East Legon + Virtual</span>
                 </div>
-              </div>
-
-              {/* Small supporting trust/award badge */}
-              <div className="mt-4 text-center">
-                <span className="text-xs text-gray-400 font-mono italic">
-                  *Practical activities and physical sessions hosted at Accra Innovation Center, East Legon.
-                </span>
               </div>
             </motion.div>
           </div>

@@ -91,10 +91,10 @@ export default function FAQ() {
             </a>
             <a
               id="faq-email-direct"
-              href="mailto:info@enseigne.edu"
+              href="mailto:info@enseignee.com"
               className="bg-gray-50 hover:bg-gray-100 border border-gray-200 text-gray-700 font-semibold text-xs px-5 py-3 rounded-xl transition-all"
             >
-              <span>Email: info@enseigne.edu</span>
+              <span>Email: info@enseignee.com</span>
             </a>
           </div>
         </div>

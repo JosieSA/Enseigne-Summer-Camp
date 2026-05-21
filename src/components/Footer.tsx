@@ -1,5 +1,6 @@
 import { MouseEvent } from "react";
-import { Rocket, Phone, Mail, MapPin, Facebook, Instagram, Linkedin, ArrowUp } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, ArrowUp } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Footer() {
   const scrollToTop = (e: MouseEvent) => {
@@ -18,20 +19,10 @@ export default function Footer() {
           <a
             href="#"
             onClick={scrollToTop}
-            className="flex items-center space-x-2 text-white hover:opacity-90 transition-opacity"
+            className="hover:opacity-95 transition-opacity pb-1"
             id="footer-logo"
           >
-            <div className="bg-brand-purple text-white p-2 rounded-xl flex items-center justify-center">
-              <Rocket className="h-5 w-5" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-black text-xl tracking-tight leading-none text-white">
-                ENSEIGNE
-              </span>
-              <span className="text-[10px] uppercase tracking-widest font-mono text-purple-400 font-semibold mt-0.5">
-                Summer Bootcamp
-              </span>
-            </div>
+            <Logo onDark={true} />
           </a>
 
           <p className="text-xs sm:text-sm text-gray-400 leading-relaxed font-sans">
@@ -121,8 +112,8 @@ export default function Footer() {
               <Mail className="h-4.5 w-4.5 text-brand-purple shrink-0 mt-0.5" />
               <div>
                 <span className="block font-semibold text-gray-300">General Enquiries Email:</span>
-                <a href="mailto:info@enseigne.edu" className="hover:text-purple-300 transition-colors">
-                  info@enseigne.edu
+                <a href="mailto:info@enseignee.com" className="hover:text-purple-300 transition-colors">
+                  info@enseignee.com
                 </a>
               </div>
             </li>

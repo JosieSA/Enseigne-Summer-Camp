@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { MessageCircle, Menu, X, Rocket } from "lucide-react";
+import { MessageCircle, Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,19 +37,9 @@ export default function Header() {
           <a
             id="brand-logo"
             href="#"
-            className="flex items-center space-x-2 text-brand-purple hover:opacity-90 transition-opacity"
+            className="hover:opacity-95 transition-opacity py-0.5"
           >
-            <div className="bg-brand-purple text-white p-2 rounded-xl flex items-center justify-center shadow-md shadow-purple-200">
-              <Rocket className="h-5 w-5" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-xl tracking-tight leading-none text-gray-900">
-                ENSEIGNE
-              </span>
-              <span className="text-[10px] uppercase tracking-widest font-mono text-brand-purple font-semibold mt-0.5">
-                Summer Bootcamp
-              </span>
-            </div>
+            <Logo />
           </a>
 
           {/* Desktop Navigation */}
