@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { MessageCircle, ArrowRight, ShieldCheck, Sparkles, CheckCircle } from "lucide-react";
-import heroImageSrc from "../assets/images/my_new_hero.png";
+import heroImageSrc from "../assets/images/my_new_hero.png.jpeg";
 
 export default function Hero() {
   return (
