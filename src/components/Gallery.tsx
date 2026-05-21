@@ -1,8 +1,8 @@
 import { Image, Code, Presentation, Users, Sparkles } from "lucide-react";
-import imgHeroScene from "../assets/images/hero_teen_students_1779362757035.png";
-import imgPresentationScene from "../assets/images/coding_workshop_1779362777422.png";
-import imgTeamworkScene from "../assets/images/collaborative_brainstorms_1779364578125_1779365126448.png";
-import imgMentorshipScene from "../assets/images/one_on_one_mentoring_1779364601831_1779365148032.png";
+import imgHeroScene from "../assets/images/classroom_scene.jpg";
+import imgPresentationScene from "../assets/images/presentation_scene.jpg";
+import imgTeamworkScene from "../assets/images/teamwork_scene.jpg";
+import imgMentorshipScene from "../assets/images/mentorship_scene.jpg";
 
 export default function Gallery() {
   const galleryItems = [
