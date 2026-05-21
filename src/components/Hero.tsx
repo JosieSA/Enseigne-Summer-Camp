@@ -1,10 +1,8 @@
 import { motion } from "motion/react";
 import { MessageCircle, ArrowRight, ShieldCheck, Sparkles, CheckCircle } from "lucide-react";
+import heroImageSrc from "../assets/images/my_new_hero.png";
 
 export default function Hero() {
-  // Use exact generated image path
-  const heroImageSrc = "/src/assets/images/classroom_attached_1779369052912.png";
-
   return (
     <section
       id="hero"

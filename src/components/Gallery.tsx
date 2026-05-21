@@ -1,4 +1,8 @@
 import { Image, Code, Presentation, Users, Sparkles } from "lucide-react";
+import imgHeroScene from "../assets/images/hero_teen_students_1779362757035.png";
+import imgPresentationScene from "../assets/images/coding_workshop_1779362777422.png";
+import imgTeamworkScene from "../assets/images/collaborative_brainstorms_1779364578125_1779365126448.png";
+import imgMentorshipScene from "../assets/images/one_on_one_mentoring_1779364601831_1779365148032.png";
 
 export default function Gallery() {
   const galleryItems = [
@@ -6,7 +10,7 @@ export default function Gallery() {
       id: "hero-scene",
       title: "Hands-on Technical Sprints",
       description: "Students writing code, building mobile mockups, and exploring artificial intelligence collaboratively.",
-      image: "/src/assets/images/hero_teen_students_1779362757035.png",
+      image: imgHeroScene,
       span: "md:col-span-2 md:row-span-2",
       icon: Code,
       badge: "In-Person Classroom"
@@ -15,7 +19,7 @@ export default function Gallery() {
       id: "presentation-scene",
       title: "Speaking Confidently",
       description: "Students presenting their technology solutions and apps on demo days.",
-      image: "/src/assets/images/coding_workshop_1779362777422.png",
+      image: imgPresentationScene,
       span: "md:col-span-1 md:row-span-2",
       icon: Presentation,
       badge: "Leadership Training"
@@ -24,7 +28,7 @@ export default function Gallery() {
       id: "teamwork-scene",
       title: "Collaborative Brainstorms",
       description: "Setting weekly productivity targets and hacking layout wires in teams.",
-      image: "/src/assets/images/collaborative_brainstorms_1779364578125_1779365126448.png",
+      image: imgTeamworkScene,
       span: "md:col-span-1 md:row-span-1",
       icon: Users,
       badge: "Productive Breakouts"
@@ -33,7 +37,7 @@ export default function Gallery() {
       id: "mentorship-scene",
       title: "One-on-One Mentoring",
       description: "High-quality engineering guides answering career pathway questions from actual tech experience.",
-      image: "/src/assets/images/one_on_one_mentoring_1779364601831_1779365148032.png",
+      image: imgMentorshipScene,
       span: "md:col-span-2 md:row-span-1",
       icon: Sparkles,
       badge: "Career Support"
